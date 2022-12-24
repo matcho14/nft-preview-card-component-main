@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    position: relative;
+    background-color: #0d1a2d;
+
+}
+.container{
+width: 400px;
+height: 60vh;
+background-color: #15273f;
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 6px;
+padding: 10px;
+
+}
+.container .top{
+    width: 100%;
+    height: 50%;
+}
+.container .top img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.container .botm{
+   
+    margin-top: 20px;
+    height: 40%;
+}
+.container .botm h4{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.container .botm p{
+    font-size: 1.9rem;
+    color: hsl(215, 51%, 70%);
+    line-height: 20px;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+
+}
+.container .botm .days{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding: 0px 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+.container .botm .days p{
+    color: hsl(178, 100%, 50%);
+}
+.container .botm .days span{
+    font-size: 1.8rem;
+    color: hsl(215, 51%, 70%);
+    
+}
+.container .foot{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: -30px;
+    align-items: center;
+    padding: 0px 15px
+}
+.container .foot img{
+    width: 60px;
+    margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.container .foot p{
+    font-size: 1.8rem;
+    color: hsl(215, 51%, 70%);
+}
+.container .foot p span{
+    color: #fff;
+}
